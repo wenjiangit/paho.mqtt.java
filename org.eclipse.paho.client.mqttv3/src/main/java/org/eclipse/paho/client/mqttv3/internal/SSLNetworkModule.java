@@ -20,15 +20,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.SNIHostName;
-import javax.net.ssl.SNIServerName;
-import javax.net.ssl.SSLParameters;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
 import org.eclipse.paho.client.mqttv3.MqttException;
+import org.eclipse.paho.client.mqttv3.internal.compat.SNIHostName;
+import org.eclipse.paho.client.mqttv3.internal.compat.SNIServerName;
+import org.eclipse.paho.client.mqttv3.internal.compat.SSLParameters;
+import org.eclipse.paho.client.mqttv3.internal.compat.SSLSocket;
 import org.eclipse.paho.client.mqttv3.logging.Logger;
 import org.eclipse.paho.client.mqttv3.logging.LoggerFactory;
 
